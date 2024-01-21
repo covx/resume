@@ -282,3 +282,5 @@ TSWLatexianTemp*
 
 .idea/
 out/
+
+.DS_Store
