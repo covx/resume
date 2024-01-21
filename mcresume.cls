@@ -173,7 +173,7 @@
 
         \ifthenelse{\equal{\cvsitepersonal}{}}{}{\textsc{\Large\icon{\faGlobe}{11pt}} & \colorhref{\cvsitepersonal}\\}
 
-        \ifthenelse{\equal{\cvgithub}{}}{}{\textsc{\Large\icon{\faGithub}{11pt}} & \colorhrefcustom{https://github.com/\cvgithub}github.com/{\cvgithub}\\}
+        \ifthenelse{\equal{\cvgithub}{}}{}{\textsc{\Large\icon{\faGithub}{11pt}} & \colorhrefcustom{https://github.com/\cvgithub}{\cvgithub}\\}
 
         \ifthenelse{\equal{\cvmail}{}}{}{\textsc{\Large\icon{\faAt}{11pt}} & \colorhrefcustom{mailto:\cvmail}{\cvmail}\\}
 
